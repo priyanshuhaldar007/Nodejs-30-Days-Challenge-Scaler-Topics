@@ -15,5 +15,5 @@ function checkFileExtension(file_path, ext) {
 checkFileExtension('test-files/file1.txt', '.txt');
 // Expected Output: File has the expected extension: .txt
 
-checkFileExtension('test-files/image.md', '.jpg');
+checkFileExtension('test-files/image.png', '.jpg');
 // Expected Output: File does not have the expected extension. Expected: .jpg, Actual: .png
